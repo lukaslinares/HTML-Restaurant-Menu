@@ -88,3 +88,19 @@ th {
 li {
     text-align: left;
 }
+
+.Christmas {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}
+
+.highlight {
+    color: red;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+}

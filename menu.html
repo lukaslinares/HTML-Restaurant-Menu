@@ -6,14 +6,23 @@
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link 
+    rel="stylesheet" 
+    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+    crossorigin="anonymous"/>
 </head>
 <body>
     <!-- MENU PAGE -->
+    <div class="Christmas">
+        <h1>Christmas Holiday</h1>
+        <p>Our store will be closed on Christmas Eve (24th), and Christmas Day (25th). Thank you for understanding!</p>
+    </div>
     <!-- TODO: Navbar here -->
     <nav>
         <ul>
             <li><a href="./index.html">Home</a></li>
-            <li><a href="./menu.html">Menu</a></li>
+            <li><a href="./menu.html" class="highlight">Menu</a></li>
             <li><a href="./contact.html">Contact</a></li>
             <li><a href="./about.html">About</a></li>
         </ul>
@@ -36,7 +45,7 @@
         </thead>
             <tbody>
             <tr>
-                <td>Chicken Satay</td>
+                <td class="fa fa-star"> Chicken Satay</td>
                 <td>$7.95</td>
             </tr>
             <tr>
@@ -56,7 +65,7 @@
             </thead>
             <tbody>
                 <tr>
-        <td>Panang Curry</td>  
+        <td class="fa fa-fire"> Panang Curry</td>  
         <td>$9.95</td> 
     </tr>
     <tr>
@@ -64,7 +73,7 @@
         <td>$9.95</td>
     </tr>
     <tr>
-        <td>Yellow Curry</td>
+        <td class="fa fa-star"> Yellow Curry</td>
         <td>$8.95</td>
     </tr>
     <tr>
@@ -72,7 +81,7 @@
         <td>$8.95</td>
     </tr>
     <tr>
-        <td>Tom Yum Soup</td>
+        <td class="fa fa-fire"> Tom Yum Soup</td>
         <td>$8.95</td>
     </tr>   
     </tbody>
@@ -88,7 +97,7 @@
         </thead>
       <tbody>
         <tr>
-            <td>Pad Thai</td>
+            <td class="fa fa-star"> Pad Thai</td>
             <td>$10.5</td>
         </tr>
         <tr>
@@ -96,7 +105,7 @@
             <td>$10.49</td>
         </tr>
         <tr>
-            <td>Rad Nah</td>
+            <td class="fa fa-fire"> Rad Nah</td>
             <td>$10.49</td>
         </tr>
       </tbody>
@@ -171,7 +180,20 @@
                     <td>$2.99</td>
                 </tr>
             </tbody>
-        </table>          
+        </table>   
+
+        <h2>Reference</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th class="fa fa-star">-Fan Favorite</th>
+                    <th class="fa fa-fire">-Spicy</th>
+                </tr>
+            </thead>
+        </table>
     </main>
+    <footer>
+        <p>Always made fresh to impress</p>
+    </footer>
 </body>
 </html>
